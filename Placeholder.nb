@@ -1,0 +1,444 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13614,        435]
+NotebookOptionsPosition[     12400,        388]
+NotebookOutlinePosition[     12743,        403]
+CellTagsIndexPosition[     12700,        400]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Interpretation", "[", 
+  RowBox[{
+   RowBox[{"Placeholder", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"Row", "[", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Click in this box, then click the \>\"", ",", 
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<CODE\>\"", ",", "Bold"}], "]"}], ",", " ", 
+         "\"\< tab to the left\>\""}], "}"}], "]"}], ",", "Black", ",", "14", 
+      ",", 
+      RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+   RowBox[{"Style", "[", 
+    RowBox[{"\"\<Great Job!!!\>\"", ",", "Bold", ",", "14", ",", 
+     RowBox[{"FontFamily", "\[Rule]", "\"\<Arial Black\>\""}]}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.628852444248958*^9, 3.628852464777671*^9}, {
+  3.6288541594254456`*^9, 3.628854536088251*^9}, {3.6288546516627283`*^9, 
+  3.628854722500074*^9}, {3.628873174587576*^9, 3.628873176497858*^9}, {
+  3.628873232415226*^9, 3.6288732330346413`*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[
+    StyleBox[
+     TemplateBox[{
+      "\"Click in this box, then click the \"",StyleBox[
+       "\"CODE\"", Bold, StripOnInput -> False],"\" tab to the left\""},
+      "RowDefault"],
+     StripOnInput->False,
+     LineColor->GrayLevel[0],
+     FrontFaceColor->GrayLevel[0],
+     BackFaceColor->GrayLevel[0],
+     GraphicsColor->GrayLevel[0],
+     FontFamily->"Arial",
+     FontSize->14,
+     FontColor->GrayLevel[0]]],
+   "Placeholder"],
+  Style["Great Job!!!", Bold, 14, FontFamily -> "Arial Black"]]], "Output",
+ CellChangeTimes->{{3.6288546910650625`*^9, 3.6288547234597144`*^9}, {
+   3.6288731588160324`*^9, 3.6288731774575024`*^9}, 3.628873234745782*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[
+    StyleBox[
+     TemplateBox[{
+      "\"Click the \"",StyleBox["\"CODE\"", Bold, StripOnInput -> False],
+       "\" tab to the left\""},
+      "RowDefault"],
+     StripOnInput->False,
+     FontFamily->"Arial",
+     FontSize->14]],
+   "Placeholder"],
+  "Great Job!"]], "Input",
+ CellChangeTimes->{3.6288546692284627`*^9}],
+
+Cell[BoxData["\<\"Great Job!\"\>"], "Output",
+ CellChangeTimes->{3.6288546692674885`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Interpretation", "[", 
+  RowBox[{
+   RowBox[{"Placeholder", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Here's another, you know what to do :)\>\"", ",", "Black", ",", 
+      "14", ",", 
+      RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+   RowBox[{"Style", "[", 
+    RowBox[{"\"\<Great Job!!!\>\"", ",", "Bold", ",", "14", ",", 
+     RowBox[{"FontFamily", "\[Rule]", "\"\<Arial Black\>\""}]}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6288744367135324`*^9, 3.628874457019106*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[
+    StyleBox["\<\"Here's another, you know what to do :)\"\>",
+     StripOnInput->False,
+     LineColor->GrayLevel[0],
+     FrontFaceColor->GrayLevel[0],
+     BackFaceColor->GrayLevel[0],
+     GraphicsColor->GrayLevel[0],
+     FontFamily->"Arial",
+     FontSize->14,
+     FontColor->GrayLevel[0]]],
+   "Placeholder"],
+  Style["Great Job!!!", Bold, 14, FontFamily -> "Arial Black"]]], "Output",
+ CellChangeTimes->{{3.628874443682192*^9, 3.628874457791623*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Interpretation", "[", 
+  RowBox[{
+   RowBox[{"Placeholder", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"Row", "[", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Click in this box, hold \>\"", ",", 
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<\[ShiftKey]\>\"", ",", 
+           RowBox[{"FontSlant", "\[Rule]", "Plain"}], ",", "24", ",", 
+           "Bold"}], "]"}], ",", " ", "\"\< and press \>\"", ",", 
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<\[EnterKey]\>\"", ",", "24", ",", 
+           RowBox[{"FontSlant", "\[Rule]", "Plain"}], ",", "Bold"}], "]"}]}], 
+        "}"}], "]"}], ",", "Black", ",", "14", ",", 
+      RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+   RowBox[{"Style", "[", 
+    RowBox[{
+    "\"\<Great Job, you're a ninja!!!\>\"", ",", "Bold", ",", "14", ",", 
+     RowBox[{"FontFamily", "\[Rule]", "\"\<Arial Black\>\""}]}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.628873752936175*^9, 3.6288738018488674`*^9}, {
+  3.628873961098995*^9, 3.628874130775304*^9}, {3.628874736121297*^9, 
+  3.6288747378674717`*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[
+    StyleBox[
+     TemplateBox[{
+      "\"Click in this box, hold \"",StyleBox[
+       "\"\[ShiftKey]\"", FontSlant -> Plain, 24, Bold, StripOnInput -> 
+        False],"\" and press \"",StyleBox[
+       "\"\[EnterKey]\"", 24, FontSlant -> Plain, Bold, StripOnInput -> 
+        False]},
+      "RowDefault"],
+     StripOnInput->False,
+     LineColor->GrayLevel[0],
+     FrontFaceColor->GrayLevel[0],
+     BackFaceColor->GrayLevel[0],
+     GraphicsColor->GrayLevel[0],
+     FontFamily->"Arial",
+     FontSize->14,
+     FontColor->GrayLevel[0]]],
+   "Placeholder"],
+  Style["Great Job, you're a ninja!!!", Bold, 14, FontFamily -> 
+   "Arial Black"]]], "Output",
+ CellChangeTimes->{
+  3.628873777461567*^9, 3.6288739693835325`*^9, 3.628874015474337*^9, {
+   3.6288740517615957`*^9, 3.6288740693942747`*^9}, {3.628874105656518*^9, 
+   3.6288741319310694`*^9}, 3.628874739038254*^9}]
+}, Open  ]],
+
+Cell[BoxData["\[ShiftKey]"], "Input",
+ CellChangeTimes->{{3.6288737587810755`*^9, 3.628873762912837*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Placeholder", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+    RowBox[{"Row", "[", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Click here and type any \>\"", ",", 
+       RowBox[{"Style", "[", 
+        RowBox[{"\"\<number\>\"", ",", "Bold"}], "]"}]}], "}"}], "]"}], ",", 
+    "Black", ",", "14", ",", 
+    RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.628876122738971*^9, 3.6288761868006797`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  FrameBox[
+   StyleBox[
+    TemplateBox[{
+     "\"Click here and type any \"",StyleBox[
+      "\"number\"", Bold, StripOnInput -> False]},
+     "RowDefault"],
+    StripOnInput->False,
+    LineColor->GrayLevel[0],
+    FrontFaceColor->GrayLevel[0],
+    BackFaceColor->GrayLevel[0],
+    GraphicsColor->GrayLevel[0],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontColor->GrayLevel[0]]],
+  "Placeholder"]], "Output",
+ CellChangeTimes->{3.628876152487744*^9, 3.628876188069526*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Interpretation", "[", 
+  RowBox[{
+   RowBox[{"Placeholder", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{"\"\<Range[10]\>\"", ",", "Black", ",", "14", ",", 
+      RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+   RowBox[{"Range", "[", "10", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.628959385784412*^9, 3.628959430578353*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[
+    StyleBox["\<\"Range[10]\"\>",
+     StripOnInput->False,
+     LineColor->GrayLevel[0],
+     FrontFaceColor->GrayLevel[0],
+     BackFaceColor->GrayLevel[0],
+     GraphicsColor->GrayLevel[0],
+     FontFamily->"Arial",
+     FontSize->14,
+     FontColor->GrayLevel[0]]],
+   "Placeholder"],
+  Range[10]]], "Output",
+ CellChangeTimes->{3.6289594399476132`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[
+    StyleBox["\<\"Range[10]\"\>",
+     StripOnInput->False,
+     LineColor->GrayLevel[0],
+     FrontFaceColor->GrayLevel[0],
+     BackFaceColor->GrayLevel[0],
+     GraphicsColor->GrayLevel[0],
+     FontFamily->"Arial",
+     FontSize->14,
+     FontColor->GrayLevel[0]]],
+   "Placeholder"],
+  Range[10]]], "Input",
+ CellChangeTimes->{3.6289594345540023`*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Mouseover", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Framed", "@", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{
+      RowBox[{"{", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"Disk", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"Text", "[", 
+         RowBox[{
+          RowBox[{"Style", "[", 
+           RowBox[{"\"\<PLACE\\nMOUSE HERE\>\"", ",", 
+            RowBox[{"FontFamily", "\[Rule]", "\"\<Arial Black\>\""}]}], "]"}],
+           ",", 
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1"}], "}"}]}], "]"}]}], "}"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", "2"}], ",", 
+      RowBox[{"ImageSize", "\[Rule]", "100"}]}], "]"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Framed", "@", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{
+      RowBox[{"{", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"Disk", "[", 
+         RowBox[{
+          RowBox[{"Dynamic", "[", 
+           RowBox[{"MousePosition", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"\"\<Graphics\>\"", ",", "Graphics"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"0", ",", "0"}], "}"}]}], "]"}], "]"}], ",", "0.2"}], 
+         "]"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"Text", "[", 
+         RowBox[{
+          RowBox[{"Style", "[", 
+           RowBox[{"\"\<AWESOME!!!\>\"", ",", 
+            RowBox[{"FontFamily", "\[Rule]", "\"\<Arial Black\>\""}]}], "]"}],
+           ",", 
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1"}], "}"}]}], "]"}]}], "}"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", "2"}], ",", 
+      RowBox[{"ImageSize", "\[Rule]", "100"}]}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6291613061812763`*^9, 3.6291613090982275`*^9}, 
+   3.629161365130171*^9, {3.629161501734475*^9, 3.6291615076130085`*^9}, {
+   3.629161702297804*^9, 3.6291617856635246`*^9}, {3.629161829424781*^9, 
+   3.6291618317593403`*^9}, {3.62916188529687*^9, 3.629162047023321*^9}, {
+   3.629162100932353*^9, 3.629162140093527*^9}, {3.6291621892914095`*^9, 
+   3.6291622340566964`*^9}}],
+
+Cell[BoxData[
+ PaneSelectorBox[{False->
+  FrameBox[
+   GraphicsBox[{DiskBox[{0, 0}, 0.2], InsetBox[
+      StyleBox["\<\"PLACE\\nMOUSE HERE\"\>",
+       StripOnInput->False,
+       FontFamily->"Arial Black"], {0, 1}]},
+    ImageSize->100,
+    PlotRange->2],
+   StripOnInput->False], True->
+  FrameBox[
+   GraphicsBox[{
+     DiskBox[Dynamic[MousePosition[{"Graphics", Graphics}, {0, 0}]], 0.2], 
+     InsetBox[
+      StyleBox["\<\"AWESOME!!!\"\>",
+       StripOnInput->False,
+       FontFamily->"Arial Black"], {0, 1}]},
+    ImageSize->100,
+    PlotRange->2],
+   StripOnInput->False]}, Dynamic[
+   CurrentValue["MouseOver"]],
+  FrameMargins->0,
+  ImageSize->Automatic]], "Output",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{{3.62916221989086*^9, 3.62916223440893*^9}, 
+   3.62916226619918*^9}]
+}, Open  ]],
+
+Cell[BoxData["Refresh"], "Input",
+ CellChangeTimes->{{3.629162603493626*^9, 3.6291626049035673`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DynamicModule", "[", 
+  RowBox[{
+   RowBox[{"{", "}"}], ",", 
+   RowBox[{"Framed", "@", 
+    RowBox[{"Dynamic", "[", 
+     RowBox[{"Refresh", "[", 
+      RowBox[{
+       RowBox[{"DateString", "[", "]"}], ",", 
+       RowBox[{"UpdateInterval", "\[Rule]", "1"}]}], "]"}], "]"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6291626171247296`*^9, 3.6291626197014503`*^9}, {
+  3.6291631858417654`*^9, 3.629163211845137*^9}}],
+
+Cell[BoxData[
+ DynamicModuleBox[{}, 
+  FrameBox[
+   DynamicBox[ToBoxes[
+     Refresh[
+      DateString[], UpdateInterval -> 1], StandardForm],
+    ImageSizeCache->{184., {1., 8.}}],
+   StripOnInput->False],
+  DynamicModuleValues:>{}]], "Output",
+ CellChangeTimes->{{3.6291626124045773`*^9, 3.62916262019578*^9}, {
+  3.629163207338132*^9, 3.629163212332463*^9}}]
+}, Open  ]]
+},
+WindowSize->{855, 526},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (December 4, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 967, 21, 112, "Input"],
+Cell[1550, 45, 717, 20, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2304, 70, 379, 14, 39, "Input"],
+Cell[2686, 86, 89, 1, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2812, 92, 557, 13, 72, "Input"],
+Cell[3372, 107, 516, 15, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3925, 127, 1130, 25, 132, "Input"],
+Cell[5058, 154, 933, 26, 41, "Output"]
+}, Open  ]],
+Cell[6006, 183, 105, 1, 31, "Input"],
+Cell[CellGroupData[{
+Cell[6136, 188, 471, 12, 52, "Input"],
+Cell[6610, 202, 503, 17, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7150, 224, 384, 8, 52, "Input"],
+Cell[7537, 234, 414, 15, 39, "Output"]
+}, Open  ]],
+Cell[7966, 252, 413, 15, 39, "Input"],
+Cell[CellGroupData[{
+Cell[8404, 271, 2210, 54, 192, "Input"],
+Cell[10617, 327, 817, 26, 127, "Output"]
+}, Open  ]],
+Cell[11449, 356, 101, 1, 31, "Input"],
+Cell[CellGroupData[{
+Cell[11575, 361, 445, 12, 31, "Input"],
+Cell[12023, 375, 361, 10, 43, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
